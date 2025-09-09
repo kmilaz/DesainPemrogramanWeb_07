@@ -5,7 +5,7 @@ html, body{
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #ddd;
+    background: url(img/background.jpg);
     line-height: 1.65;
     padding-bottom: 1000px;
 }
@@ -22,11 +22,20 @@ body{
 .sidebar-satu {
     order: 1;
     flex: 1;
+    color: gray;
 }
 
 .kolom-utama {
     order: 2;
     flex: 3;
+}
+
+h2{
+    color: gray;
+}
+
+h3{
+    color: cornflowerblue;
 }
 
 .sidebar-dua {
