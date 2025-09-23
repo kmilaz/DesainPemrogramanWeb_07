@@ -53,3 +53,10 @@ $a/=$b;
 echo "a=a/b={$a}<br>";
 $a%=$b;
 echo "a=a%b={$a}<br>";
+
+$hasilIdentik= $a===$b;
+$hasilTidakIdentik = $a!==$b;
+
+echo "<br>";
+echo "Hasil identik: {$hasilIdentik} <br>";
+echo "Hasil tidak identik: {$hasilTidakIdentik} <br>";
