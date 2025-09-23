@@ -41,3 +41,15 @@ echo "Hasil AND: {$hasilAnd} <br>";
 echo "Hasil OR: {$hasilOr} <br>";
 echo "Hasil NOT A: {$hasilNotA} <br>";
 echo "Hasil NOT B: {$hasilNotB} <br>";
+
+echo "<br>";
+$a+=$b;
+echo "a=a+b={$a}<br>";
+$a-=$b;
+echo "a=a-b={$a}<br>";
+$a*=$b;
+echo "a=a*b={$a}<br>";
+$a/=$b;
+echo "a=a/b={$a}<br>";
+$a%=$b;
+echo "a=a%b={$a}<br>";
