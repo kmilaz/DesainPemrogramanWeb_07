@@ -16,7 +16,7 @@ echo "Hasil bagi: {$hasilBagi} <br>";
 echo "Sisa bagi: {$sisaBagi} <br>";
 echo "Hasil pangkat: {$pangkat} <br>";
 
-$hasilSama = $a===$b;
+$hasilSama = $a==$b;
 $hasilTidakSama = $a != $b;
 $hasilLebihKecil = $a<$b;
 $hasilLebihBesar=$a>$b;
