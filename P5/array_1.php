@@ -8,9 +8,11 @@
     <?php
         $Listdosen=["Elok Nur Hamdana", "Unggul Pamenang", "Bagas Nugraha"];
 
-        echo $Listdosen[2] . "<br>";
-        echo $Listdosen[0] . "<br>";
-        echo $Listdosen[1] . "<br>";
+        $jumlah_dosen = count($Listdosen);
+
+        for ($i = 0; $i < $jumlah_dosen; $i++) {
+            echo $Listdosen[$i] . "<br>";
+        }
     ?>
 </body>
 </html>
