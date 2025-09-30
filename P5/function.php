@@ -8,7 +8,7 @@ function perkenalan($nama, $salam) {
 
 perkenalan("Hamdana", "Hallo");
 
-echo "<br>";
+echo "<hr>";
 
 $saya = "Elok";
 $ucapanSalam = "Selamat pagi";
